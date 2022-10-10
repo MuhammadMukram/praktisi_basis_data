@@ -22,4 +22,6 @@ SELECT course_id,'NAME',duration FROM course;
 INSERT INTO jadwal VALUES (12, 'Analisis Perancangan', '2022-10-03', '13:30:00', 3, 4);
 
 -- Edit /update schedule for specific student
-
+UPDATE schedule
+SET tanggal = '2022-10-22', jam = '16:00'
+WHERE student_id = 'H071211017';
