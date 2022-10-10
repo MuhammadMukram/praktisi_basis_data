@@ -1,3 +1,7 @@
+-- Buat dan use database-nya 
+CREATE DATABASE db_klp1B;
+USE db_klp1B;
+
 -- Create new student info record : Attar
 
 
