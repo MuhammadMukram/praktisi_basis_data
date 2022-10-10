@@ -18,7 +18,7 @@ INSERT INTO course VALUES
 ('21H0712070','Praktikum Pemrograman Web', 90),
 ('21H0712080','Analisis dan Perancangan Sistem', 90),
 ('21H0712090','Praktikum Analisis dan Perancangan Sistem', 90),
-('21H0712100','Metode Statistika', );
+('21H0712100','Metode Statistika', 90);
 
 INSERT INTO schedule VALUES
 (1, "Aljabar Linear", '2022-1-12', '07:30', 1, 1),
