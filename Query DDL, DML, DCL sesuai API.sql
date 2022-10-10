@@ -16,10 +16,10 @@ UPDATE students SET full_name = 'Attar', student_id="H071211014", address="Jalan
 SELECT s.full_name, j.nama FROM students AS s INNER JOIN jadwal AS j ON s.students_id = j.students_id WHERE j.students_id = 1;
 
 -- List of courses
-
+SELECT course_id,'NAME',duration FROM course;                                           
 
 -- Create / input new schedule for specific student
-
+INSERT INTO jadwal VALUES (12, 'Analisis Perancangan', '2022-10-03', '13:30:00', 3, 4);
 
 -- Edit /update schedule for specific student
 
