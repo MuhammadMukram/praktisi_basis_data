@@ -1,8 +1,8 @@
 -- Buat dan use database-nya 
--- CREATE DATABASE db_klp1B;
-USE db_klp1B;
+-- CREATE DATABASE tugas_basis_data;
+USE tugas_basis_data;
 
--- Create new student info record : Attar
+-- Create new student info record
 -- CREATE TABLE `students` (
 --   `students_id` int(11) NOT NULL,
 --   `full_name` varchar(255) DEFAULT NULL,
