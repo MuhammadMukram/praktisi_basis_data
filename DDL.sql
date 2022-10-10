@@ -1,3 +1,5 @@
+CREATE DATABASE tugas_basis_data;
+USE tugas_basis_data;
 CREATE TABLE `course` (
   `course_id` int(11) NOT NULL AUTO INCREMENT,
   `NAME` varchar(255) NOT NULL,
