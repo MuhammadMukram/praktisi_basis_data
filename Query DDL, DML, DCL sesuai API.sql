@@ -2,7 +2,10 @@
 -- CREATE DATABASE tugas_basis_data;
 USE tugas_basis_data;
 
--- Create new student info record : Di DML
+-- Create new student info record
+INSERT INTO students VALUES 
+('nim_kalia7', "Dummy 7", "Dummy Street", "Sistem Informasi"),
+('nim_kalia8', "Dummy 8", "Dummy Street", "Sistem Informasi");
 
 -- List students : Attar
 SELECT * FROM students;
