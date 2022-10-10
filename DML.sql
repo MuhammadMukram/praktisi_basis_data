@@ -1,12 +1,12 @@
--- USE tugas_basis_data;
--- INSERT INTO students VALUES 
--- ('H071211004', 'Muhammad Arif', 'Belibis Street', 'Sistem Informasi'),
--- ('H071211012', 'Dummy 1', 'Dummy Street', 'Sistem Informasi'),
--- ('H071211017', 'Dummy 2', 'Dummy Street', 'Sistem Informasi'),
--- ('nim_kalia1', 'Dummy 3', 'Dummy Street', 'Sistem Informasi'),
--- ('nim_kalia2', 'Dummy 4', 'Dummy Street', 'Sistem Informasi'),
--- ('nim_kalia3', 'Dummy 5', 'Dummy Street', 'Sistem Informasi'),
--- ('nim_kalia4', 'Dummy 6', 'Dummy Street', 'Sistem Informasi');
+USE tugas_basis_data;
+INSERT INTO students VALUES 
+('H071211004', 'Muhammad Arif', 'Belibis Street', 'Sistem Informasi'),
+('H071211012', 'Dummy 1', 'Dummy Street', 'Sistem Informasi'),
+('H071211017', 'Dummy 2', 'Dummy Street', 'Sistem Informasi'),
+('nim_kalia1', 'Dummy 3', 'Dummy Street', 'Sistem Informasi'),
+('nim_kalia2', 'Dummy 4', 'Dummy Street', 'Sistem Informasi'),
+('nim_kalia3', 'Dummy 5', 'Dummy Street', 'Sistem Informasi'),
+('nim_kalia4', 'Dummy 6', 'Dummy Street', 'Sistem Informasi');
 
 INSERT INTO course VALUES
 ('21H0712010','Struktur Diskrit', 90),
@@ -20,8 +20,8 @@ INSERT INTO course VALUES
 ('21H0712090','Praktikum Analisis dan Perancangan Sistem', 90),
 ('21H0712100','Metode Statistika', 90);
 
-INSERT INTO schedule VALUES
-(1, "Aljabar Linear", '2022-1-12', '07:30', 1, 1),
-(2, "Programming Web", '2022-1-12', '08:30', 1, 2),
-(3, "Basis Data", '2022-1-12', '11:00', 1, 3),
-(4, "Analisis Perancangan", '2022-1-12', '13:30', 1, 4);
+INSERT INTO schedule (tanggal, jam, student_id, course_id) VALUES
+('2022-10-17', '10:10', 'H071211017', '21H0712060'),
+('2022-10-17', '13:10', 'H071211017', '21H0712030'),
+('2022-10-19', '07:30', 'H071211017', '21H0712080'),
+('2022-10-19', '15:40', 'H071211017', '21H0712010');
