@@ -8,16 +8,18 @@ USE tugas_basis_data;
 SELECT * FROM students;
 
 -- Update student info record
+UPDATE students SET full_name = 'Mukram' WHERE id=2;
+UPDATE students SET full_name = 'Fitrah' WHERE id=3;
+UPDATE students SET full_name = 'Attar', student_id="H071211014", address="Jalan Perintis Kemerdekaan" WHERE id=4;
 
-
--- List of schedule on specific student : Mukram
+-- List of schedule on specific student
 SELECT s.full_name, j.nama FROM students AS s INNER JOIN jadwal AS j ON s.students_id = j.students_id WHERE j.students_id = 1;
 
--- List of courses : Arif
+-- List of courses
 
 
--- Create / input new schedule for specific student : Arif
+-- Create / input new schedule for specific student
 
 
--- Edit /update schedule for specific student : Fitrah
+-- Edit /update schedule for specific student
 
