@@ -1,12 +1,12 @@
 CREATE TABLE `course` (
-  `course_id` int(11) NOT NULL,
+  `course_id` int(11) NOT NULL AUTO INCREMENT,
   `NAME` varchar(255) NOT NULL,
   `duration` int(11) NOT NULL,
   PRIMARY KEY (`course_id`)
 )
 
 CREATE TABLE `jadwal` (
-  `id` int(11) NOT NULL,
+  `jadwal_id` int(11) NOT NULL AUTO INCREMENT,
   `nama` varchar(255) NOT NULL,
   `tanggal` date NOT NULL,
   `jam` time NOT NULL,
@@ -21,7 +21,7 @@ CREATE TABLE `jadwal` (
 
 CREATE TABLE `students` (
   `students_id` int(11) NOT NULL,
-  `full_name` varchar(255) DEFAULT NULL,
+  `full_name` varchar(255) NOT NULL,
   `address` varchar(255) DEFAULT NULL,
   `major` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`students_id`)
