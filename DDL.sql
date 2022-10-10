@@ -20,7 +20,7 @@ CREATE TABLE `jadwal` (
 )
 
 CREATE TABLE `students` (
-  `students_id` int(11) NOT NULL,
+  `students_id` varchar(11) NOT NULL,
   `full_name` varchar(255) NOT NULL,
   `address` varchar(255) DEFAULT NULL,
   `major` varchar(255) DEFAULT NULL,
