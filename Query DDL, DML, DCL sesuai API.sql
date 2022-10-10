@@ -26,7 +26,9 @@ WHERE st.student_id = 'H071211017';
 SELECT course_id,'NAME',duration FROM course;                                           
 
 -- Create / input new schedule for specific student
-INSERT INTO jadwal VALUES (12, 'Analisis Perancangan', '2022-10-03', '13:30:00', 3, 4);
+INSERT INTO schedule (tanggal, jam, student_id, course_id) VALUES
+('2022-10-20', '10:10', 'H071211012', '21H0712040'),
+('2022-10-21', '13:10', 'H071211012', '21H0712100');
 
 -- Edit /update schedule for specific student
 UPDATE schedule
