@@ -16,3 +16,12 @@ INSERT INTO jadwal VALUES
 (2, "Programming Web", '2022-1-12', '08:30', 1, 2),
 (3, "Basis Data", '2022-1-12', '11:00', 1, 3),
 (4, "Analisis Perancangan", '2022-1-12', '13:30', 1, 4);
+
+
+-- Get API List of courses
+SELECT * FROM jadwal;
+
+-- Create / input new schedule for specific student
+INSERT INTO jadwal VALUES (12, 'Analisis Perancangan', 2022-10-03, 13:30:00 3, 4;
+
+                           
