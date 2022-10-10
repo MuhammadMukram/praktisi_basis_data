@@ -1,9 +1,15 @@
 -- Buat dan use database-nya 
-CREATE DATABASE db_klp1B;
+-- CREATE DATABASE db_klp1B;
 USE db_klp1B;
 
 -- Create new student info record : Attar
 
+CREATE TABLE `course` (
+  `course_id` int(11) NOT NULL,
+  `NAME` varchar(255) NOT NULL,
+  `duration` int(11) NOT NULL,
+  PRIMARY KEY (`course_id`)
+)
 
 -- List students : Attar
 
