@@ -16,7 +16,11 @@ UPDATE students SET full_name = 'Muhammad Mukram Mustamin', address = 'Sudiang' 
 UPDATE students SET full_name = 'Attar', student_id= 'H071211014', address="Jalan Perintis Kemerdekaan" WHERE student_id='nim_kalia1';
 
 -- List of schedule on specific student
-SELECT s.full_name, j.nama, j.jam, j.tanggal FROM students AS s INNER JOIN jadwal AS j ON s.students_id = j.students_id WHERE j.students_id = 1; 
+SELECT st.full_name, c.name, sc.tanggal, sc.jam
+FROM students st
+JOIN schedule sc ON st.student_id = sc.student_id
+JOIN course c ON sc.course_id = c.course_id
+WHERE st.student_id = 'H071211017';
 
 -- List of courses
 SELECT course_id,'NAME',duration FROM course;                                           
