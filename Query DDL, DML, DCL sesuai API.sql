@@ -11,9 +11,9 @@ INSERT INTO students VALUES
 SELECT * FROM students;
 
 -- Update student info record
-UPDATE students SET full_name = 'Mukram' WHERE id=2;
-UPDATE students SET full_name = 'Fitrah' WHERE id=3;
-UPDATE students SET full_name = 'Attar', student_id="H071211014", address="Jalan Perintis Kemerdekaan" WHERE id=4;
+UPDATE students SET full_name = 'Fitrah Ramadhan', address = 'Jl. H. Kalla' WHERE student_id = 'H071211017';
+UPDATE students SET full_name = 'Muhammad Mukram Mustamin', address = 'Sudiang' WHERE student_id = 'H071211017';
+UPDATE students SET full_name = 'Attar', student_id= 'H071211014', address="Jalan Perintis Kemerdekaan" WHERE student_id='nim_kalia1';
 
 -- List of schedule on specific student
 SELECT s.full_name, j.nama FROM students AS s INNER JOIN jadwal AS j ON s.students_id = j.students_id WHERE j.students_id = 1;
